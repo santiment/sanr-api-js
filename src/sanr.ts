@@ -50,13 +50,9 @@ class Sanr {
       headers: {'Content-Type': 'application/json'}
     })
     const data = await response.json()
-    console.log("username: " + data.username)
-    console.log("address: " + data.address)
-    console.log(this.defaultOptions.headers);
     this.defaultOptions.headers = {
       'Authorization': "Bearer " + data.accessToken
     }
-    console.log(this.defaultOptions.headers);
   }
 
   /**
