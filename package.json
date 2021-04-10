@@ -1,6 +1,6 @@
 {
   "name": "@santiment-network/sanr-api-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sanr API JS Wrapper",
   "repository": "https://github.com/santiment/sanr-api-js",
   "main": "dist/sanr.js",
