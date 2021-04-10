@@ -10,11 +10,11 @@
 You can either use `npm ` or `yarn ` to install it:
 
 ```
-npm i --save sanr-api-js
+npm i --save @santiment-network/sanr-api-js
 ```
 
 ```
-yarn add sanr-api-js
+yarn add @santiment-network/sanr-api-js
 ```
 
 # Usage
